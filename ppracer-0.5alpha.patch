@@ -1,0 +1,12 @@
+diff -r -u ppracer-0.5alpha-orig/src/racingmode.h ppracer-0.5alpha/src/racingmode.h
+--- ppracer-0.5alpha-orig/src/racingmode.h	2005-09-15 10:44:49.000000000 +0300
++++ ppracer-0.5alpha/src/racingmode.h	2007-11-17 21:22:31.000000000 +0200
+@@ -27,7 +27,7 @@
+ protected:
+ 	bool m_paused;
+ 
+-	RacingMode::RacingMode();
++	RacingMode();
+ 	void renderCourse(int player, float timestep);	
+ 
+ public:
